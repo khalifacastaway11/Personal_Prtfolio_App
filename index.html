@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatiple" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Mohamed Khalifa's protfolio | Home</title>
+    <link rel="icon" href="images/protofolio.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/mysocialmedia.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/about-footer.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    
+  </head>
+  <style>
+     
+    :root {
+      --color-1: rgb(8, 231, 8);
+      --color-2: black;
+    }
+
+
+  </style>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="log">
+            <img src="images/SDE.png" alt="" class="my-logo" />
+          </div>
+          <button type="button" class="nav-toggler">
+            <span> </span>
+          </button>
+          <nav class="nav">
+            <ul>
+              <li><a href="#" class="nav-btn active">Home</a></li>
+              <li>
+                <a href="#" class="nav-btn active">Skills & Experience</a>
+              </li>
+              <li><a href="#" class="nav-btn active">Projects</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+
+      <div class="mysocialhandles reveal-left">
+      <a href="https://www.linkedin.com/in/Khalifacastaway">
+        <img src="images/linkedin.png" alt="" />
+      </a>
+      <a href="https://www.github.com/khalifacastaway11">
+        <img src="images/github.png" alt="" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/http://www.youtube.com/@khalifacastaway6356"
+      >
+        <img src="images/youtube.png" alt=""
+      /></a>
+      <a href="https://www.X.com/Khalifacastaway">
+        <img src="images/x.png" alt=""
+      /></a>
+      </div>
+    
+
+    <div class="my-banner">
+      <div class="my-banner-left reveal-down">
+        <p class="head1">Hey there ,it's me</p>
+        <p class="head2">Ahmed Mohamed Khalifa.</p>
+        <p class="head3">I am a Back-End Developer , a programmer</p>
+      </div>
+
+      <div class="my-banner-right reveal-left">
+        <div class="empty-div"></div>
+        <img src="images/personal image.png.jpeg" alt="">
+      </div>
+    </div>  
+  
+    <div class="about-me reveal-up" id="aboutme">
+       <p class="head1 reveal1-left">Who Am I ?</p>
+       <p class="head2 reveal-right">
+        I am Ahmed Mohamed Khalifa, an Egyptian holding a post-graduate
+        academic diploma in computer sciences field enthusiast who wants to
+        learn more & more</br>  
+        I Am a back-end developer in node js and also know the fundementals of machine learning and worked on many datasets
+        in that field.
+       </p>
+    </div> 
+    
+    <footer>
+      <div class="head1">For more details you can also visit</div>
+      <div class="head2 reveal-down">
+        <nav class="nav2">
+           <ul>
+            <li><a href="/home" class="nav-btn active">Home</a></li>
+            <li><a href="/skills" class="nav-btn">Skills & Experience</a></li>
+             <li><a href="/projects" class="nav-btn">Projects</a></li>
+           </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  <script src="js/navbar.j"></script>
+  <!-- <script>
+    
+    function revealup(){
+      var reveals=document.querySelectorAll(".reveal-up");
+      for(var i=0;i<reveals.length;i++){
+        var windowHeight=window.innerHeight;
+        var elementTop=reveals[i].getBoundingClientRect().top;
+        var elementVisible=150;
+
+        if(elmentTop<windowHeight-elementVisible){
+          reveals[i].classList.add("active");
+        }
+        else{
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+
+    function revealdown(){
+      var reveals=document.querySelectorAll(".reveal-down");
+      for(var i=0;i<reveals.length;i++){
+        var windowHeight=window.innerHeight;
+        var elementTop=reveals[i].getBoundingClientRect().top;
+        var elementVisible=150;
+
+        if(elmentTop<windowHeight-elementVisible){
+          reveals[i].classList.add("active");
+        }
+        else{
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    
+    function revealleft(){
+      var reveals=document.querySelectorAll(".reveal-left");
+      for(var i=0;i<reveals.length;i++){
+        var windowHeight=window.innerHeight;
+        var elementTop=reveals[i].getBoundingClientRect().top;
+        var elementVisible=150;
+
+        if(elmentTop<windowHeight-elementVisible){
+          reveals[i].classList.add("active");
+        }
+        else{
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    
+    
+    function revealright(){
+      var reveals=document.querySelectorAll(".reveal-left");
+      for(var i=0;i<reveals.length;i++){
+        var windowHeight=window.innerHeight;
+        var elementTop=reveals[i].getBoundingClientRect().top;
+        var elementVisible=150;
+
+        if(elmentTop<windowHeight-elementVisible){
+          reveals[i].classList.add("active");
+        }
+        else{
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+   
+    window.onload=revealleft();
+    window.onload=revealup();
+  window.onload=revealright();
+  window.onload=revealdown();
+  </script> -->
+</html>
