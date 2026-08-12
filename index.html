@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ahmed Mohamed Khalifa - Back-End Developer & Programmer Portfolio. Node.js, Express, MongoDB, Python, Machine Learning." />
+  <meta name="keywords" content="Ahmed Mohamed Khalifa, Back-End Developer, Node.js, Express, MongoDB, Python, Machine Learning, Portfolio" />
+  <meta name="author" content="Ahmed Mohamed Khalifa" />
+  <meta property="og:title" content="Ahmed Mohamed Khalifa | Back-End Developer" />
+  <meta property="og:description" content="Portfolio of Ahmed Mohamed Khalifa - Back-End Developer specializing in Node.js, Express, and Machine Learning." />
+  <meta property="og:type" content="website" />
+  <title>Ahmed Mohamed Khalifa | Back-End Developer</title>
+  <link rel="icon" href="images/SDE.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img src="images/SDE.png" alt="Ahmed Khalifa Logo" class="logo-img" />
+        <span class="logo-text">Ahmed<span class="accent">.</span></span>
+      </a>
+      <button type="button" class="nav-toggler" id="navToggler" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Social Sidebar -->
+  <aside class="social-sidebar">
+    <a href="https://www.linkedin.com/in/Khalifacastaway" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <img src="images/linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="https://www.github.com/khalifacastaway11" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <img src="images/github.png" alt="GitHub" />
+    </a>
+    <a href="https://www.youtube.com/@khalifacastaway6356" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+      <img src="images/youtube.png" alt="YouTube" />
+    </a>
+    <a href="https://www.X.com/Khalifacastaway" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+      <img src="images/x.png" alt="X" />
+    </a>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting">Hey there, it's me</p>
+        <h1 class="hero-title">Ahmed Mohamed <span class="accent">Khalifa.</span></h1>
+        <p class="hero-subtitle">
+          <span class="typing-text" id="typingText"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-description">
+          Back-End Developer specializing in Node.js, Express, and MongoDB. 
+          Passionate about building scalable APIs and exploring Machine Learning.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-frame">
+          <img src="images/personal image.png.jpeg" alt="Ahmed Mohamed Khalifa" />
+        </div>
+        <div class="floating-card card-1">
+          <span class="card-icon">&#128187;</span>
+          <span class="card-text">Back-End Dev</span>
+        </div>
+        <div class="floating-card card-2">
+          <span class="card-icon">&#129302;</span>
+          <span class="card-text">ML Enthusiast</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <a href="#about" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who Am I?</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="images/personal image.png.jpeg" alt="Ahmed Mohamed Khalifa" />
+        </div>
+        <div class="about-text">
+          <h3>I am a Back-End Developer based in Egypt.</h3>
+          <p>
+            I hold a post-graduate academic diploma in Computer Science from the Faculty of 
+            Post Graduate Statistical Research. I specialize in building robust back-end systems 
+            using <strong>Node.js</strong> and <strong>Express</strong>, with experience in 
+            <strong>MongoDB</strong> databases.
+          </p>
+          <p>
+            Beyond web development, I have a strong foundation in <strong>Machine Learning</strong> 
+            and <strong>Python</strong>, having worked on numerous datasets and models. I am 
+            constantly learning and expanding my skill set to stay at the forefront of technology.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Years Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Expertise</span>
+        <h2 class="section-title">Skills & Experience</h2>
+      </div>
+      <div class="skills-content">
+        <div class="skills-text">
+          <h3>My Work Experience</h3>
+          <p>
+            I am a dedicated learner who has applied to various internships and part-time 
+            opportunities to test and refine my skills. I have a post-graduate academic diploma 
+            in Computer Science and I am currently focused on building web applications with Node.js 
+            and Express, while also exploring the fundamentals of Machine Learning and Python.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="Front-End">
+            <div class="skill-icon">
+              <img src="images/webdev.png" alt="Front-End Development" />
+            </div>
+            <h4>Front-End Development</h4>
+            <p>HTML, CSS, Intermediate JavaScript. Built responsive websites and interactive UIs.</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 75%"></div>
+            </div>
+          </div>
+          <div class="skill-card" data-skill="Back-End">
+            <div class="skill-icon">
+              <img src="images/backend.png" alt="Back-End Development" />
+            </div>
+            <h4>Back-End Development</h4>
+            <p>Node.js, Express, Socket.IO. Building RESTful APIs and real-time applications.</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-card" data-skill="Database">
+            <div class="skill-icon">
+              <img src="images/Database.png" alt="Database" />
+            </div>
+            <h4>Database</h4>
+            <p>MongoDB with Mongoose. Intermediate level database design and management.</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 70%"></div>
+            </div>
+          </div>
+          <div class="skill-card" data-skill="C++">
+            <div class="skill-icon">
+              <img src="images/C++.png" alt="C++" />
+            </div>
+            <h4>C++</h4>
+            <p>Intermediate level with Data Structures & Algorithms. Problem solving on GFG and Coding Ninjas.</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 65%"></div>
+            </div>
+          </div>
+          <div class="skill-card" data-skill="Python">
+            <div class="skill-icon">
+              <img src="images/python.png" alt="Python" />
+            </div>
+            <h4>Python</h4>
+            <p>Intermediate level. Data analysis, Machine Learning models, Kaggle datasets.</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--progress: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">My Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/chattapp.png" alt="ChatApp Project" />
+            <div class="project-overlay">
+              <a href="https://github.com/khalifacastaway11/chat-application" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>ChatApp</h3>
+            <p>A real-time chat application built for seamless communication. Features instant messaging, user notifications, and responsive design.</p>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Socket.IO</span>
+              <span class="tag">Express</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/weather.png" alt="Weather API App" />
+            <div class="project-overlay">
+              <a href="https://github.com/khalifacastaway11/Weather-API-app" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Weather API App</h3>
+            <p>Real-time weather application powered by Node.js and OpenWeatherMap API. Clean interface with accurate weather data for any city.</p>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">API</span>
+              <span class="tag">HTTP</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/movieapp.png" alt="Movies Search App" />
+            <div class="project-overlay">
+              <a href="https://github.com/khalifacastaway11/Movies-App" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Search Movies App</h3>
+            <p>Film discovery application using TMDB API. Search movies by title, view detailed information, director and cast details.</p>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">TMDB API</span>
+              <span class="tag">Express</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/personalprotfolio.png" alt="Personal Portfolio" />
+            <div class="project-overlay">
+              <a href="https://github.com/khalifacastaway11/Personal_prtfolio_App" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Personal Portfolio</h3>
+            <p>My portfolio website showcasing skills, projects, and experience. Built with modern web technologies and responsive design.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's work together!</h3>
+          <p>
+            I'm currently open to new opportunities, internships, and collaborations. 
+            Whether you have a question or just want to say hi, feel free to reach out.
+          </p>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/Khalifacastaway" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <img src="images/linkedin.png" alt="LinkedIn" />
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.github.com/khalifacastaway11" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <img src="images/github.png" alt="GitHub" />
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.youtube.com/@khalifacastaway6356" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <img src="images/youtube.png" alt="YouTube" />
+              <span>YouTube</span>
+            </a>
+            <a href="https://www.X.com/Khalifacastaway" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <img src="images/x.png" alt="X" />
+              <span>X (Twitter)</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="images/SDE.png" alt="Logo" class="footer-logo" />
+          <p>Ahmed Mohamed Khalifa</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ahmed Mohamed Khalifa. All rights reserved.</p>
+        <p>Built with passion and lots of coffee.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
